@@ -898,7 +898,7 @@ int main(int argc, char** argv)
 		int found = v->getNbFoundKey();
 		//add a flag to return found when a private key found
 
-		printf("AFTER Search finished");
+	//	printf("AFTER Search finished");
 		printf("FOUND = %d", found);
 
 
@@ -938,7 +938,7 @@ int main(int argc, char** argv)
 	//add a flag to return found when a private key found
 
 	delete v;
-	printf("win64 NOT defined, existing linux code");
+	//printf("win64 NOT defined, existing linux code");
 	printf("FOUND = %d", found);
 	//return 0;
 	return found;
